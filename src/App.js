@@ -3,15 +3,15 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import './'
+import Project from './Components/projects/Project';
 
 function App() {
   return (
-    <div className="bg-bg-pattern bg-center bg-cover bg-no-repeat w-screen h-screen ">
+    <div className="">
       
      <Navbar />
       <Hero />
-
-
+     <Project />
     
     </div>
   );

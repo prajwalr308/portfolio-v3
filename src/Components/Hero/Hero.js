@@ -1,10 +1,10 @@
 import React from 'react'
-import a from '../../assets/a.png'
+import a from '../../assets/web.jpg'
 const Hero = () => {
     return (
         <div> 
             <div className=" flex items-center justify-center">
-            <img className="mt-20 h-40 w-30 " src={a} />
+            <img className="mt-20 h-40 w-25 rounded-lg" src={a} />
             </div>
             <div className=" flex items-center justify-center">
             <div className="bg-white mt-9 w-2/3 h-16 flex items-center  backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-lg">
